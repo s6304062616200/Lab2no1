@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h4>ควรใช้ input type ใด</h4>
+        <label for="name">ชื่อเต็ม/ย่อของสาขาวิชา</label>
+        <input type="text" id="name" size="15" maxlength="30" ><br>
+        <label for="money">จำนวนเงินที่จะโอน</label>
+        <input type="text" id="money" size="15" maxlength="10" ><br>
+        <label>อาหารที่ชอบจากมากไปน้อย :
+            <input type="checkbox" name="food" value="1"checked="checked" >อาหาร1
+            <input type="checkbox" name="food" value="2"checked="checked" >อาหาร2
+            <input type="checkbox" name="food" value="3"checked="checked" >อาหาร3
+            <input type="checkbox" name="food" value="4"checked="checked" >อาหาร4
+            <input type="checkbox" name="food" value="5"checked="checked" >อาหาร5
+            </label><br>
+        <label for="Emoney">ค่าไฟฟ้า3เดือนที่ผ่านมา</label>
+        <input type="text" id="Emoney" size="15" maxlength="10" ><br>
+        <label for="id">รหัสบัตรประชาชน</label>
+        <input type="text" id="id" size="15" placeholder="x-xxxx-xxxxx-xx-x"  pattern="\d{1}-\d{4}-\d{5}-\d{2}-\d{1}"><br><input type="submit" value="Submit"><br>
+       <form >
+        <label for="happy">ความพึงพอใจของหนังสือเล่มนี้</label>
+        <input type="range"><br>
+       </form>
+        <form>
+            <p>ในช่วง3เดือนที่ผ่านมาคุณเคยรับวัคซีนหรือไม่</p>
+             <input type="radio" id="y" name="vaccine" value="เคย">
+             <label for="yvac">เคย</label><br>
+             <input type="radio" id="n" name="vaccine" value="ไม่เคย">
+             <label for="nvac">ไม่เคย</label><br>
+            
+                </form> 
+        <label for="password">รหัสผ่าน</label>
+        <input type="password" id="money" size="15" maxlength="15" ><br>    
+        <label for="date">วันเวลาที่ต้องไปพบแพทย์</label><br>
+        <input type="datetime" ><br> 
+        <label for="startfinish">เวลาเริ่มเข้าเรียนและสิ้นสุดการเรียน</label><br>
+        <input type="time" ><br> <input type="time" ><br> 
+    
+    
+    </div>
+</body>
+</html>
